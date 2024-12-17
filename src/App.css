@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.clearBtn {
+  height: 30px;
+  width: 100px;
+  font-size: 17px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.linkedListTypes,
+.operationOptions {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+  font-size: 18px;
+}
+
+.linkedListTypes div,
+.operationOptions div {
+  display: flex;
+  gap: 5px;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resContainer {
+  background-color: rgba(220, 220, 220, 0.599);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  gap: 10px;
+}
+
+.linkedListStr {
+  width: 200px;
+  height: 80px;
+  display: flex;
+}
+
+.linkedListStr div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.doublyLL div {
+  width: 33%;
+}
+
+.headNode.headNode div {
+  border: 1px solid orangered;
+}
